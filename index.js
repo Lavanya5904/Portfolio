@@ -6,7 +6,7 @@ var typed=new Typed(".text",{
     loop:true
 });
 
-/*document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     var modeToggleBtn = document.getElementById('modeToggle');
     var linkElement = document.getElementById('style-link');
   
@@ -18,5 +18,5 @@ var typed=new Typed(".text",{
         linkElement.href = 'style.css';
       }
     });
-  });*/
+  });
   
