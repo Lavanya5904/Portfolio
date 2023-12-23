@@ -20,6 +20,10 @@ html{
     background-color:white;
 }
 
+nav .fa-solid{
+    display:none;
+}
+
 
 .container nav img{
     width:95px;
@@ -285,7 +289,10 @@ nav ul li a:hover::after{
     margin-left:114px;
     margin-right:-14px;
 }
-
+.qualithird{
+    margin-left:114px;
+    margin-right:-14px;
+}
 .quali-second{
     margin-left:5px;
 }
@@ -576,3 +583,165 @@ nav ul li a:hover::after{
 .work:hover .layer{
     height:100%;
 }
+
+
+/*responsive*/
+@media only screen and (max-width:950px){
+
+    /*nav{
+        flex-basis:100%;
+    }
+    .my-content{
+        height: 335px;
+        padding: 20px;
+    }
+nav .fa-solid{
+    display:block;
+}
+nav .fa-solid.fa-bars{
+    position: absolute;
+    right: 17px;
+    top: 48px;
+    font-size: 30px;
+    z-index:5;
+}
+nav ul{
+    background-color:white;
+    position:fixed;
+    top:0;
+    right:-470px;
+    width:470px;
+    height:100vh;
+    padding-top:50px;
+    z-index:6;
+    transition:right 0.2s;
+}
+nav ul li{
+   display:block;
+   margin:11px;
+}
+nav ul .fa-solid{
+    position: absolute;
+    top: 15px;
+    left: 55px;
+    cursor: pointer;
+    font-size: 25px;
+    color:#000045;
+}*/
+nav{
+    height:155px;
+    width:412px;
+    justify-content:center;
+    align-items: center;
+}
+.container nav img{
+    flex-basis:1%;
+    padding:4px;
+}
+nav ul{
+    flex-basis:71%;
+}
+nav ul li{
+    margin:4px 4px;
+}
+nav ul li a{
+    font-size:18px;
+
+}
+.body{
+    width:412px;
+    padding:0px;
+    overflow:hidden;
+}
+.my-content{
+    width:379px;
+    height:337px;
+    padding:11px;
+}
+.content{
+    margin-top:37px;
+    margin-left:12px;
+    width:337px;
+}
+.col1{
+    flex-basis:100%;
+}
+.col2{
+    flex-basis:100%;
+    padding:10px;
+}
+.col2 #intro{
+    text-align: center;
+}
+.col2 #int{
+    text-align: center;
+
+}
+.col2 #abt{
+    text-align: center;
+}
+.hobby{
+    font-size: 17px;
+    color: #000045;
+    padding: 10px;
+}
+.qualification{
+    padding-left:40px;
+    padding-right:39px;
+}
+.quali-subtitle{
+    font-size:19px;
+}
+.qualifirst{
+    margin-left: 25px;
+    margin-right:-16px;
+}
+.quali-second{
+    margin-left: -19px;
+}
+.qualithird{
+    margin-left: 4px;
+    margin-right: 10px;
+}
+.quali-data .quali-subdata{
+    padding:6px;
+}
+#about-me h3{
+    font-size:20px;
+}
+.quali-calendar{
+    padding:2px;
+}
+.quali-data .second{
+    width:184px;
+}
+.quali-subtitile{
+    padding:1px;
+    font-size:18px;
+}
+.content {
+    margin-top: 22px;
+    margin-left: 4px;
+}
+.skills2{
+    padding:5px;
+}
+#skills{
+    width:93%;
+}
+.contact-left{
+    flex-basis:100%;
+}
+.contact-right{
+    flex-basis:100%;
+}
+.contact-right form {
+    width: 88%;
+}
+#contact{
+    padding:30px;
+}
+}
+
+
+
