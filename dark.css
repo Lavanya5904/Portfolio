@@ -289,7 +289,10 @@ nav ul li a:hover::after{
 .quali-second{
     margin-left:5px;
 }
-
+.qualithird{
+    margin-left:114px;
+    margin-right:-14px;
+}
 .quali-subdata .quali-title{
     color:white;
 }
