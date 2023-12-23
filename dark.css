@@ -285,14 +285,14 @@ nav ul li a:hover::after{
     margin-left:114px;
     margin-right:-14px;
 }
-
-.quali-second{
-    margin-left:5px;
-}
 .qualithird{
     margin-left:114px;
     margin-right:-14px;
 }
+.quali-second{
+    margin-left:5px;
+}
+
 .quali-subdata .quali-title{
     color:white;
 }
